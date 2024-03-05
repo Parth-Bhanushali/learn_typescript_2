@@ -1,0 +1,15 @@
+initialized by 
+tsc --init
+and it generated tsconfig.json file
+
+npm init -y
+to generate package.json and -y is used to skip answering questions while it is being initialized
+
+tsc -w
+(observes the changes and based on tsconfig generated file in the specified directory)
+
+npm i lite-server
+and into package.json, change the start mode to take a load from lite-server
+or another way could be to use the Live Share extension or any other stuff just to run the server
+
+use npm start in case of lite-server is configured
